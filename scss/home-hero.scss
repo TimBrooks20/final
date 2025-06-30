@@ -1,0 +1,34 @@
+.home-hero {
+    height:668px;
+    width: 1920px;
+    background-image: url(../images/abstracthero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    .home-hero-title {
+        height: 200px;
+        width: 400px;
+        font-size: 32px;
+        color: #ffffff;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .home-hero {
+        
+        width: 100%;
+        
+        
+        .home-hero-title {
+            width: 80%;
+            font-size: 32px;
+        }
+    }
+}

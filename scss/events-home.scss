@@ -1,0 +1,115 @@
+.events-header {
+    width: 250px;
+        border-bottom: 3px solid black;
+        font-size: 32px;
+        margin-bottom: 50px;
+        margin-top: 100px;
+        margin-left: 35px;
+}
+
+.events-hero {
+    width: 1200px;
+    height: 484px;
+    background-image:   linear-gradient(to bottom, rgba(0,135,158,0.3),rgba(0,135,158,0.3)),url(../images/bloghero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.events-content {
+    height: 600px;
+    width: 1200px;
+    margin: 0 auto;
+    
+
+    .top-row {
+        width: 1200px;
+        height: 300px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+       
+        .event {
+            display: flex;
+            .date-box {
+                display: block;
+                width: 100px;
+                height: 100px;
+                background-color: #FC5000;
+                
+                
+                span {
+                    display: flex;
+                    text-align: center;
+                    font-size: 16px;
+                    padding-left: 33px;
+                    
+            
+                }
+                .month {
+                    padding-top: 30px;
+                    text-decoration: none;
+                    color: black;
+                    
+                }
+            }
+
+            h2 {
+                font-size: 16px;
+                margin-left: 20px;
+            }
+            p {
+                font-size: 16px;
+                width: 258px;
+                margin-left: 20px;
+                height: 110px;
+            }
+
+           
+        }
+
+
+    }
+
+    .bottom-row {
+        width: 1200px;
+        height: 300px;
+        display: flex;
+        justify-content: space-between;
+        
+
+        .event {
+            display: flex;
+            .date-box {
+                display: block;
+                width: 100px;
+                height: 100px;
+                background-color: #FC5000;
+
+                span {
+                    display: flex;
+                    text-align: center;
+                    font-size: 16px;
+                    padding-left: 33px;
+                }
+                .month {
+                    padding-top: 30px;
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+
+            h2 {
+                font-size: 16px;
+                margin-left: 20px;
+            }
+            p {
+                font-size: 16px;
+                width: 258px;
+                margin-left: 20px;
+                height: 110px;
+            }
+        }
+    }
+}

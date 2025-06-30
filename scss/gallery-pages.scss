@@ -1,0 +1,76 @@
+.gallery-pages-content {
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 300px;
+    .gallery-one-image {
+        width: 361px;
+        height: 591px;
+        margin-right: 50px;
+        background-image: url(../images/gallery_two.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+    .gallery-two-image {
+        width: 450px;
+        height: 300px;
+        margin-right: 50px;
+        background-image:  linear-gradient(to bottom, rgba(233,131,13,0.4),rgba(233,131,13,0.4)),url(../images/gallery_one.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .gallery-three-image {
+        width: 450px;
+        height: 300px;
+        margin-right: 50px;
+        background-image: linear-gradient(to bottom, rgba(0,135,158,0.5),rgba(0,135,158,0.5)),url(../images/gallery_three.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .gallery-four-image {
+        width: 480px;
+        height: 628px;
+        margin-right: 50px;
+        background-image:  linear-gradient(to bottom, rgba(0,135,158,0.5),rgba(0,135,158,0.5)),url(../images/gallery_four.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .gallery-one-text {
+        width: 717px;
+        height: 591px;
+        
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1123px) {
+    .gallery-pages-content {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin-bottom: 100px;
+
+        .gallery-one-image {
+            width: 300px;
+            height: 300px;
+            margin-bottom: 20px;
+        }
+
+        .gallery-one-text {
+            width: 100%;
+            height: auto;
+            padding: 0 30px;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.gallery-one-content {
+  width: 1920px;
+  height: 1200px;
+}
+.gallery-one-content .gallery-one-image {
+  width: 361px;
+  height: 591px;
+  background-color: aqua;
+}
